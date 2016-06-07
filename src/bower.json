@@ -4,22 +4,22 @@
   "authors": [
     "Radu Florescu <radu.florescu@hotmail.com>"
   ],
-  "description": "adding ability to customize bootstrap themes and colors",
-  "main": "src/less/custom-bootstrap.less",
+  "description": "",
+  "main": "",
   "license": "MIT",
+  "private": true,
+  "main": [
+    "less/custom-bootstrap.less",
+    "less/variables.less"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "bootstrap": "^3.3.6",
-    "bootstrap-custom-bundle" : "*"
-  },
-  "overrides": {
-    "BOWER-PACKAGE": {
-    }
-  }
+  ]
 }

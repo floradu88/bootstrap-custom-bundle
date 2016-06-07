@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/floradu88/bootstrap-custom-bundle#readme",
   "devDependencies": {
+    "del": "^2.2.0",
     "gulp": "^3.9.1",
     "main-bower-files": "^2.13.1"
   }
