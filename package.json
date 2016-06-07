@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-custom-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floradu88/bootstrap-custom-bundle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/floradu88/bootstrap-custom-bundle/issues"
+  },
+  "homepage": "https://github.com/floradu88/bootstrap-custom-bundle#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "main-bower-files": "^2.13.1"
+  }
+}

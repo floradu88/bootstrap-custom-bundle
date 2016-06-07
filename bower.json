@@ -16,5 +16,9 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.6"
+  },
+  "overrides": {
+    "BOWER-PACKAGE": {
+    }
   }
 }
