@@ -5,7 +5,11 @@
     "Radu Florescu <radu.florescu@hotmail.com>"
   ],
   "description": "adding ability to customize bootstrap themes and colors",
-  "main": "src/less/custom-bootstrap.less",
+  "main": 
+  [
+    "dist/fonts/*",
+    "dist/styles.css"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -15,8 +19,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.6",
-    "bootstrap-custom-bundle" : "*"
+    "bootstrap": "^3.3.6"
   },
   "overrides": {
     "BOWER-PACKAGE": {
